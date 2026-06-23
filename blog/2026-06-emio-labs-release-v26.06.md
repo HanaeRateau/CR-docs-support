@@ -16,11 +16,9 @@ import emio_matlab from './2026-06-release/img/emio-matlab-simulink.png'
 
 We are happy to announce **Emio Labs v26.06**!
 
-With this release Emio Labs has now a solution mode. 
+With this release Emio Labs has now a **solution mode**, and you can pilot Emio from **MATLAB**. 
 The release also contains many new exciting features and improvements.
 To upgrade, download the new version !
-
-<!--truncate--> 
 
 ## Highlights
 
@@ -29,6 +27,8 @@ To upgrade, download the new version !
 You can now enable a solution mode in Emio Labs to see the solutions of the labs. You can show or hide these solutions by toggling the Labs>Enable/Disable Solutions in the top menu bar. Have a look at [the documentation](https://docs-support.compliance-robotics.com/docs/v26.06/Users/EmioLabs/create-your-lab/#solutions).
 
 <img className="centered" src={emiolabs_solutions} width="80%" style={{boxShadow:"rgba(149, 157, 165, 0.2) 0px 8px 24px"}}/>  
+
+<!--truncate--> 
 
 ### ✨ MATLAB & Emio
 
@@ -55,6 +55,7 @@ We are excited to introduce new content to Emio Labs. These additions will help 
 - The logs of SOFA are now colorized
 - The text is wrapped
 - Labs now have a table of content
+- The Python code of Emio is now packaged into a module named `emio`
 
 ### Bug Fixes
 - Fixes crash when logs are too large

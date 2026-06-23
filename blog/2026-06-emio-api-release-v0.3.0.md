@@ -6,5 +6,11 @@ authors:
   - eulaliecoevoet
 tags: [v0.3.0, release, Emio.API]
 hide_table_of_contents: false
-date: 2026-06-31T10:00
+date: 2026-06-30T10:00
 ---
+
+## New Features
+
+- Multi turn option
+- Multi camera
+- Exposed pwm mode
