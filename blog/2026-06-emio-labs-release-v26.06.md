@@ -6,7 +6,7 @@ authors:
   - eulaliecoevoet
 tags: [v26.06, release, Emio Labs]
 hide_table_of_contents: false
-date: 2026-06-31T10:00
+date: 2026-06-30T10:00
 ---
 
 
