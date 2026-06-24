@@ -1,6 +1,6 @@
 ---
 title: Create Your Own Lab
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 import emio_labs_directory from './img/emio-labs-directory.png'
