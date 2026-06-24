@@ -1,4 +1,4 @@
-# None
+# Emio SOFA API
 
 <a id="robot"></a>
 
@@ -340,6 +340,16 @@ def createScene(root):
                                          type="deformable",
                                          color=[1, 1, 1, 1]))
 ```
+
+<a id="centerpart.CenterPart.isValid"></a>
+
+#### CenterPart.isValid
+
+```python
+def isValid() -> bool
+```
+
+Check if the centerpart is in a valid state. Returns True if the centerpart is in a valid state, False otherwise.
 
 <a id="motor"></a>
 

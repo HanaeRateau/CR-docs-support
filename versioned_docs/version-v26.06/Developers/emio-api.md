@@ -1,6 +1,13 @@
-# None
+# Emio API
 
 [Emio API](https://github.com/SofaComplianceRobotics/Emio.API) is a Python package created to control the [Emio robot](https://compliance-robotics.com/compliance-lab/).
+
+Emio API uses tkinter for the GUI. On certains OS, you may need to install additional packages to use tkinter. 
+
+On Ubuntu, you can install it using the following command:
+```bash
+sudo apt-get install tk
+```
 
 To install it from PyPI, run the following command: 
 ```bash
@@ -36,6 +43,7 @@ Motors:
 > :::warning
 >
 > Emio motors are clamped between 0 and PI radians (0 and 180 degrees). If you input a value outside this range, the motor will not move.
+> **Important**: the security temperature for the motors is 53°C. Above this temperature, the motors turn the torque off. Close the connection and turn off Emio, let it cool for a few minutes then Emio back on.
 >
 > :::
 
@@ -656,12 +664,14 @@ Close the camera and terminate the process. Sets the running status to False.
 class EmioMotors(DynamixelMotors)
 ```
 
-Class to control emio motors.
-The class is designed to be used with the emio device.
+Class to control Emio motors.
+The class is designed to be used with the Emio device.
 The motors are controlled in position mode. The class is thread-safe and can be used in a multi-threaded environment.
 
-It is a wrapper around the DynamixelMotors class from the dynamixelmotorsapi package, with some specific configurations for the emio device.
-You can find the doccumentation of the DynamixelMotors class in the [dynamixelmotorsapi](./dynamixelmotors-api.md) package.
+**Important**: the security temperature for the motors is 53°C. Above this temperature, the motors turn the torque off. Close the connection and turn off Emio, let it cool for a few minutes then Emio back on.
+
+It is a wrapper around the `DynamixelMotors` class from the `dynamixelmotorsapi` package, with some specific configurations for the Emio device.
+You can find the documentation of the DynamixelMotors class in the [dynamixelmotorsapi](./dynamixelmotors-api.md) package.
 
 **Example**:
 
