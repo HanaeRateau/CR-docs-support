@@ -43,11 +43,15 @@ const config: Config = {
       'classic',
       {
         docs: {
-          lastVersion: "v25.12",
+          lastVersion: "v26.06",
           versions: {
             current: {
-              label: 'v26.06-coming',
+              label: 'v26.12-coming',
               path: 'next',
+            },
+            "v26.06": {
+              label: 'v26.06',
+              path: 'v26.06',
             },
             "v25.12": {
               label: 'v25.12',
