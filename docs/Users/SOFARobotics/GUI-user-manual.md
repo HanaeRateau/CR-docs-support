@@ -60,6 +60,10 @@ The **windows** offer various functionalities, enabling you to program or direct
 - **Scene Graph**: View the scene graph of the simulation.  
 - **Log:** Display the log of the simulation.  
 
+:::tip
+Saving the project for the current simulation (`SIMULATION_FILENAME.crproj` file) will save the layout of the windows and workbenches, among other things. You can save the project using **File > Save (Ctrl+S)**.
+:::
+
 ### Overview of the Viewport
 
 The viewport displays:

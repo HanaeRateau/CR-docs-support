@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-import emio_labs_overview from './img/emio-labs-overview.png';
+import emiolabs_overview from './img/emio-labs-overview.gif';
 import emio_robot from '/static/img/emio_SOFA.jpg';
 
 
@@ -9,7 +9,7 @@ import emio_robot from '/static/img/emio_SOFA.jpg';
 
 ## A Desktop Application With Interactive Labs 
 
-<img className="centered" src={emio_labs_overview} alt="Emio Labs Overview" width="40%"/>
+<img className="centered" src={emiolabs_overview} alt="Emio Labs Overview" width="80%"/>
 <figcaption>The **Emio Labs** application on the Introduction page. The main dashboard is located at the top of each page.</figcaption>
 
 This application is designed to provide a hands-on learning experience for students and researchers interested in soft robotics.

@@ -4,6 +4,7 @@ sidebar_position: 1
 ---
 
 import emiolabs_overview from './img/emio-labs-overview.png';
+import emiolabs_introduction from './img/emio-labs-introduction.gif';
 import exercise_overview from './img/exercise.png';
 import emio_labs_labsconfigurator from './img/emio-labs-labsconfigurator.png';
 import emio_labs_resetlabs from './img/emio-labs-resetlabs.png';
@@ -17,6 +18,9 @@ import TabItem from '@theme/TabItem';
 # App User Manual
 
 Welcome to the user manual of the **Emio Labs** application.
+
+<img className="centered" src={emiolabs_introduction} width="80%" alt="emio labs introduction demo"/>
+
 
 ## Introduction
 
