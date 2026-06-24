@@ -18,6 +18,9 @@ import calib_emio from './img/calibration_emio_setup.png';
 import calib_window from './img/calibration_window.png';
 import calib_rgb_window from './img/calibration_rgb.png';
 import calib_simulation from './img/calibration_simulation.png';
+import latency_devicemanager from './img/latency_devicemanager.png';
+import latency_advanced from './img/latency_advanced.png';
+
 
 # Getting Started With Emio
 
@@ -140,6 +143,32 @@ To pilot Emio, you have two options:
 
 You can find more information about these two options in the following sections.
 :::
+
+### Reducing Communication Latency (Windows)
+
+In some cases, most likely in closed-loop control, you will need high frequency communication between Emio and your computer.
+
+
+    On Windows, the COM ports are limited to a maximum of 9600 baud rate. To increase this frequency, follow these steps:
+    1. Identify the COM port on which your Emio is plugged in
+    2. Open the *Device Manager* of Windows
+    3. Navigate to *Ports* and select your the port you identified in step 1 (e.g. COM3)
+    4. Select the *Port Settings* tab
+    5. Click on *Advanced...*
+    6. In the new window, change the *Latency Timer* to the desired latency and click *OK*.
+
+<div style={{display:"flex", flex:"1 1 0"}}>
+    <div>
+    <img className="centered" src={latency_devicemanager} width="80%" alt="The set up for calibration of the camera."/>
+    <figcaption>The Device Manager window</figcaption>
+    </div>
+    <div>
+    <img className="centered" src={latency_advanced} width="100%" alt="The set up for calibration of the camera."/>
+    <figcaption>The Advanced window for latency setting</figcaption>
+    </div>
+</div>
+
+
 
 ## Calibrating the Camera
 
